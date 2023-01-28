@@ -1,0 +1,33 @@
+#container{
+    max-width: 1200px;
+    margin: 0 auto;
+    .secondSection{
+        margin: 15% 0 10%;
+        .topOfSecSec{
+            text-align: center;
+            // margin: 10% 0;
+            width: 900px;
+            margin-left: 15%;
+            p{
+                color: #003072;
+            }
+            h1{
+                color: #003072;
+            }
+            h2{
+                color: #4c526e;
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+#container{
+    .secondSection{
+        .topOfSecSec{
+            text-align: start;
+            width: 400px;
+            }
+    }
+    }
+}

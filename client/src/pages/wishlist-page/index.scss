@@ -1,0 +1,24 @@
+#container{
+    .wishlistPage{
+        h1{
+            color: #00309f;
+            text-align: center;
+            margin: 5% 0;
+        }
+        Table{
+            color: #00309f;
+            img{
+                width: 100px;
+                margin-left: 20%;
+            }
+            button{
+                padding: 10px;
+                background-color: #79000a;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                margin: 7% 22%;
+            }
+        }
+    }
+}

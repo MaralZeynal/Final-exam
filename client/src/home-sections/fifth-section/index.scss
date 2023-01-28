@@ -1,0 +1,40 @@
+.fifthSetion{
+    background-color: #003072;
+    #container{
+        .fifthSec{
+            color: white;
+            text-align: center;
+            padding: 7% 0;
+            width: 750px;
+            margin-left: 23%;
+            h1{
+                font-size: 38px;
+                font-family: 'Rubik';
+            }
+            p{
+                font-size: 18px;
+                // font-family: 'Fira Sans'
+            }
+            button{
+                background-color: #316ec2;
+                padding: 20px 30px;
+                border: none;
+                color: white;
+                font-size: 18px;
+                font-family: 'Rubik';
+                margin-top: 3%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .fifthSetion{
+        #container{
+            .fifthSec{
+                text-align: start;
+                width: 400px;
+                margin-left: 20%;
+            }
+        }
+    }
+}

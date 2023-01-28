@@ -1,0 +1,68 @@
+#container{
+    .fourthSection{
+        margin: 2%;
+        .topOfFourthSection{
+            text-align: center;
+            color: #003089;
+            .inputBox{
+                input{
+                    padding: 10px;
+                    margin-right: 3%;
+                    border-radius: 5px;
+                    border: 1px solid #003089;
+                }
+                button{
+                    padding: 10px;
+                    background-color: #003089;
+                    color: white;
+                    border-radius: 5px;
+                    border: none;
+                }
+            }
+        }
+        .bottomOfFourthSection{
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            flex-wrap: wrap;
+            .onecard{
+                margin: 20px 0;
+                width: 300px;
+                img{
+                    width: 100%;
+                }
+                .bottomOfCard{
+                    margin: 10px 0;
+                    h1{
+                        margin: 0;
+                        color: #003089;
+                        font-size: 40x;
+                    }
+                    h3{
+                        margin: 0;
+                        color: #506485;
+                        font-size: 20px;
+                    }
+                    p{
+                        color: #506485;
+                    }
+                    button{
+                        padding: 10px;
+                        background-color: #003089;
+                        color: white;
+                        border-radius: 5px;
+                        border: none;
+                    }
+                    .wishBtn{
+                        margin-left: 5%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+.bottomOfFourthSection{
+    flex-wrap: wrap;
+}
+}

@@ -1,0 +1,33 @@
+#container{
+    max-width: 1200px;
+    margin: 0 auto;
+    .formikBox{
+        margin: 10% 0;
+        text-align: center;
+        width: 700px;
+        background-color: #698bb9;
+        padding: 5% 0;
+        border-radius: 10px;
+        margin-left: 23%;
+        h1{
+            color: #003072;
+        }
+        Form{
+            .inputBox{
+                padding: 20px;
+                margin: 10px 0;
+                width: 400px;
+                border: 2px solid #003072;
+                border-radius: 5px;
+            }
+            button{
+                padding: 20px 30px;
+                background-color: #003072;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                margin-top: 5%;
+            }
+        }
+    }
+}

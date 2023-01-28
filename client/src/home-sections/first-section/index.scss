@@ -1,0 +1,56 @@
+.firstSection{
+    img{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
+    #container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .firstSec{
+            color: white;
+            width: 600px;
+            margin-bottom: 10%;
+            .textBox{
+                // margin: 20%;
+                padding: 20% 0;
+                h1{
+                    font-size: 72px;
+                    margin: 0;
+                    font-family: 'Rubik';
+                }
+                p{
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                .lineBox{
+                    width: 140px;
+                    height: 7px;
+                    background-color: white;
+                    margin: 3% 0;
+                }
+            }
+            button{
+                border: 3px solid white;
+                background-color: transparent;
+                padding: 20px 40px;
+                color:  white;
+                font-size: 18px;
+                font-family: 'Rubik';
+                font-weight: 400;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+.firstSection{
+img{
+    width: 600px;
+}
+.firstSec{
+    .textBox{
+        color: #003089;
+    }
+}
+}
+}
